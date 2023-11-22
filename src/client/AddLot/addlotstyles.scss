@@ -1,0 +1,143 @@
+.formbd {
+  width: 75%;
+  margin: 3em auto;
+}
+
+.form-elements {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  background: transparent; /* Remove white box background */
+}
+
+.card-header,
+.card-footer {
+  padding: 15px;
+}
+
+.card-title {
+  padding: 20px 0 10px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.card-title span {
+  font-size: 14px;
+  color: #899bbd;
+}
+
+.card-body {
+  padding: 0 20px 20px 20px;
+}
+
+.rowset {
+  margin: 0 2em;
+}
+
+.addlotcls .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.rowset .col-form-label {
+  margin-bottom: 0;
+  flex: 0 0 30%;
+  text-align: right;
+  padding-right: 1em;
+}
+
+.rowset .col-sm-10 {
+  flex: 0 0 70%;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 3em;
+  margin-bottom: -1em;
+}
+
+.section-title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222222;
+  position: relative;
+}
+
+.section-title h2::before,
+.section-title h2::after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
+
+.section-title h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.section-title p {
+  margin: 10px 0 0 0;
+}
+
+.submitbtn {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.createProductFormImage img {
+  width: 100%;
+  max-width: 16em;
+  height: auto;
+}
+
+.reset-btn {
+  margin-top: 2em;
+  text-align: center;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+/* Add these styles to your existing CSS */
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* If you are still facing issues with horizontal scrolling, you can try the following */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Adjust other styles as needed */
